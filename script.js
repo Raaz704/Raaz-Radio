@@ -3,163 +3,150 @@ const tracks = [
   {
     title: "Tere Bin Nahi Laage",
     artist: "Rahat Fateh Ali Khan",
-    file: "assets/audio/'Tere Bin Nahi Laage (Male)' FULL SONG with LYRICS _ Sunny Leone _ Ek Paheli Leela.mp3"
+    file: "'Tere Bin Nahi Laage (Male)' FULL SONG with LYRICS _ Sunny Leone _ Ek Paheli Leela.mp3"
   },
-
-  {
-    title: "Aaye Ho Meri Zindagi Mein Tum Bahar Banke",
-    artist: "Udit Narayan",
-    file: "assets/audio/Aaye Ho Meri Zindagi Mein Tum Bahar Banke !! Udit Narayan _ Evergreen Love Song.mp3"
-  },
-
   {
     title: "Ae Kash Ke Hum",
     artist: "Kumar Sanu",
-    file: "assets/audio/Ae Kash Ke Hum - Lyric Video _ Kabhi Haan Kabhi Naa _ SRK, Suchitra _ Kumar Sanu.mp3"
+    file: "Ae Kash Ke Hum - Lyric Video _ Kabhi Haan Kabhi Naa _ SRK, Suchitra _ Kumar Sanu.mp3"
   },
 
   {
     title: "Channa Mereya",
     artist: "Arijit Singh",
-    file: "assets/audio/Arijit Singh - Channa Mereya _ Lyrical Video _ ADHM _ Ranbir Kapoor _ Anushka Sharma _ Pritam.mp3"
+    file: "Arijit Singh - Channa Mereya _ Lyrical Video _ ADHM _ Ranbir Kapoor _ Anushka Sharma _ Pritam.mp3"
   },
 
   {
     title: "Laal Ishq",
     artist: "Arijit Singh",
-    file: "assets/audio/Arijit Singh - Laal Ishq _ Lyrical Video _ Deepika Padukone _ Ranveer Singh _ Ram-leela.mp3"
+    file: "Arijit Singh - Laal Ishq _ Lyrical Video _ Deepika Padukone _ Ranveer Singh _ Ram-leela.mp3"
   },
 
   {
     title: "Dulhe Ka Sehra",
     artist: "Nusrat Fateh Ali Khan",
-    file: "assets/audio/Dulhe Ka Sehra - 4k Video Song _ Dhadkan _ Nusrat Fateh Ali Khan _ Akshay Kumar _ Shilpa Shetty.mp3"
-  },
-
-  {
-    title: "Virtual Skyline Drive",
-    artist: "ElevenLabs",
-    file: "assets/audio/ElevenLabs_Virtual_Skyline_Drive.mp3"
+    file: "Dulhe Ka Sehra - 4k Video Song _ Dhadkan _ Nusrat Fateh Ali Khan _ Akshay Kumar _ Shilpa Shetty.mp3"
   },
 
   {
     title: "Kitni Hasrat Hai Hame Tumse Dil Lagane Ki",
     artist: "Kumar Sanu & Sadhana Sargam",
-    file: "assets/audio/Kitni Hasrat Hai Hame Tumse Dil Lagane Ki _ Akshay Kumar_ Ashwini Bhave_ Kumar Sanu _ Sadhana Sargam.mp3"
+    file: "Kitni Hasrat Hai Hame Tumse Dil Lagane Ki _ Akshay Kumar_ Ashwini Bhave_ Kumar Sanu _ Sadhana Sargam.mp3"
   },
 
   {
     title: "Kyon Ki Itna Pyar",
     artist: "Kumar Sanu",
-    file: "assets/audio/Kyon Ki Itna Pyar (Full Song) Film - Kyon Ki ...It'S Fate.mp3"
+    file: "Kyon Ki Itna Pyar (Full Song) Film - Kyon Ki ...It'S Fate.mp3"
   },
 
   {
     title: "Aaoge Jab Tum",
     artist: "Ustad Rashid Khan",
-    file: "assets/audio/Lyrical_ Aaoge Jab Tum _ Jab We Met _ Kareena  Kapoor, Shahid Kapoor _ Ustad Rashid Khan.mp3"
+    file: "Lyrical_ Aaoge Jab Tum _ Jab We Met _ Kareena  Kapoor, Shahid Kapoor _ Ustad Rashid Khan.mp3"
   },
 
   {
     title: "Bol Na Halke Halke",
     artist: "Shankar-Ehsaan-Loy",
-    file: "assets/audio/Lyrical_ Bol Na Halke Halke Song with Lyrics _ Jhoom Barabar Jhoom _ Gulzar _ Shankar-Ehsaan-Loy.mp3"
+    file: "Lyrical_ Bol Na Halke Halke Song with Lyrics _ Jhoom Barabar Jhoom _ Gulzar _ Shankar-Ehsaan-Loy.mp3"
   },
 
   {
     title: "Main Sehra Bandh Ke Aaunga",
     artist: "Udit Narayan",
-    file: "assets/audio/Main Sehra Bandh Ke Aaunga Mera Vada Hai - Udit Narayan _ Aamir Khan, Madhuri Dixit - Sad Love Song.mp3"
+    file: "Main Sehra Bandh Ke Aaunga Mera Vada Hai - Udit Narayan _ Aamir Khan, Madhuri Dixit - Sad Love Song.mp3"
   },
 
   {
     title: "Maine Tum Ko Chaaha Tumse Pyaar Kiya",
     artist: "Udit Narayan",
-    file: "assets/audio/Maine Tum Ko Chaaha Tumse Pyaar Kiya - Pardesi Pardesi _ Raja Hindustani _ All Time Hit Song.mp3"
+    file: "Maine Tum Ko Chaaha Tumse Pyaar Kiya - Pardesi Pardesi _ Raja Hindustani _ All Time Hit Song.mp3"
   },
 
   {
     title: "Mann Ki Lagan",
     artist: "Rahat Fateh Ali Khan",
-    file: "assets/audio/Mann Ki Lagan _ Rahat Fateh Ali Khan _ Paap _ Shahi _ Amjad Islam Amjad _ Old Hindi Song.mp3"
+    file: "Mann Ki Lagan _ Rahat Fateh Ali Khan _ Paap _ Shahi _ Amjad Islam Amjad _ Old Hindi Song.mp3"
   },
 
   {
     title: "Mera Dil Bhi Kitna Pagal Hai",
     artist: "Kumar Sanu",
-    file: "assets/audio/Mera Dil Bhi Kitna Pagal Hai _ SAAJAN _ Madhuri _ Sanjay Dutt _ Saajan _ 90s Romantic Song.mp3"
+    file: "Mera Dil Bhi Kitna Pagal Hai _ SAAJAN _ Madhuri _ Sanjay Dutt _ Saajan _ 90s Romantic Song.mp3"
   },
 
   {
     title: "Mubarak Ho Tumko Ye Shaadi Tumhari",
     artist: "Udit Narayan",
-    file: "assets/audio/Mubarak Ho Tumko Ye Shaadi Tumhari - Lyrical _ Udit Narayan _ Karisma, Abhishek _ Wedding Song.mp3"
+    file: "Mubarak Ho Tumko Ye Shaadi Tumhari - Lyrical _ Udit Narayan _ Karisma, Abhishek _ Wedding Song.mp3"
   },
 
   {
     title: "Phir Le Aya Dil",
     artist: "Arijit Singh",
-    file: "assets/audio/Phir Le Aya Dil - Audio Lyrical _ Arijit Singh _ Ranbir Kapoor, Priyanka Chopra _ Pritam _ Barfi.mp3"
+    file: "Phir Le Aya Dil - Audio Lyrical _ Arijit Singh _ Ranbir Kapoor, Priyanka Chopra _ Pritam _ Barfi.mp3"
   },
 
   {
     title: "Kun Faya Kun",
     artist: "A.R. Rahman, Javed Ali & Mohit Chauhan",
-    file: "assets/audio/ROCKSTAR_ Kun Faya Kun (Full Video Song) _ Ranbir Kapoor _ A.R. Rahman, Javed Ali, Mohit Chauhan.mp3"
+    file: "ROCKSTAR_ Kun Faya Kun (Full Video Song) _ Ranbir Kapoor _ A.R. Rahman, Javed Ali, Mohit Chauhan.mp3"
   },
 
   {
     title: "Saiyyan",
     artist: "Kailash Kher",
-    file: "assets/audio/Saiyyan - Kailash Kher _ Paresh Kamath _ Naresh Kamath _ Jhoomo Re.mp3"
+    file: "Saiyyan - Kailash Kher _ Paresh Kamath _ Naresh Kamath _ Jhoomo Re.mp3"
   },
 
   {
     title: "Shikwa Nahin Kisi Se",
     artist: "Kumar Sanu",
-    file: "assets/audio/Shikwa Nahin Kisi Se _ Naseeb (1997) _ Kumar Sanu _ Govinda, Mamta Kulkarni _ Popular Emotional Song.mp3"
+    file: "Shikwa Nahin Kisi Se _ Naseeb (1997) _ Kumar Sanu _ Govinda, Mamta Kulkarni _ Popular Emotional Song.mp3"
   },
 
   {
     title: "Sochenge Tumhe Pyar",
     artist: "Kumar Sanu",
-    file: "assets/audio/Sochenge Tumhe Pyar- Lyrical _ #Deewana _ #RishiKapoor, Divya Bharti _ 90's Best Song.mp3"
+    file: "Sochenge Tumhe Pyar- Lyrical _ #Deewana _ #RishiKapoor, Divya Bharti _ 90's Best Song.mp3"
   },
 
   {
     title: "Tere Bina",
     artist: "A.R. Rahman",
-    file: "assets/audio/Tere Bina - Full Video _ A. R. Rahman _ Aishwarya Rai _ Abhishek Bachchan _ Guru.mp3"
+    file: "Tere Bina - Full Video _ A. R. Rahman _ Aishwarya Rai _ Abhishek Bachchan _ Guru.mp3"
   },
 
   {
     title: "Tu Pyar Hai Kisi Aur Ka",
     artist: "Kumar Sanu & Anuradha Paudwal",
-    file: "assets/audio/Tu Pyar Hai Kisi Aur Ka। 90s Song Dil Tuta Ashiko Liye। Kumar Sanu & Anuradha Paudwal ।।.mp3"
+    file: "Tu Pyar Hai Kisi Aur Ka। 90s Song Dil Tuta Ashiko Liye। Kumar Sanu & Anuradha Paudwal ।।.mp3"
   },
 
   {
     title: "Western Vibe",
     artist: "Western Vibe",
-    file: "assets/audio/Western Vibe https___open.spotify.com_track_7cgKrd4nCKFtf58N6psGq6_si=okxEgF2sTjez7t8hD1eTng.mp3"
+    file: "Western Vibe https___open.spotify.com_track_7cgKrd4nCKFtf58N6psGq6_si=okxEgF2sTjez7t8hD1eTng.mp3"
   },
 
   {
     title: "Ye Tune Kya Kiya",
     artist: "Pritam",
-    file: "assets/audio/Ye Tune Kya Kiya Song Once Upon A Time In Mumbaai Dobara _ Pritam _ Akshay Kumar, Sonakshi Sinha.mp3"
+    file: "Ye Tune Kya Kiya Song Once Upon A Time In Mumbaai Dobara _ Pritam _ Akshay Kumar, Sonakshi Sinha.mp3"
   },
 
   {
     title: "Yeh Dil Deewana",
     artist: "Sonu Nigam",
-    file: "assets/audio/Yeh Dil Deewana _ Shah Rukh Khan _ Sonu Nigam _ Nadeem-Shravan _ Pardes.mp3"
+    file: "Yeh Dil Deewana _ Shah Rukh Khan _ Sonu Nigam _ Nadeem-Shravan _ Pardes.mp3"
   },
 
   {
     title: "Bas Ek Sanam Chahiye Aashiqui Ke Liye",
     artist: "Kumar Sanu",
-    file: "assets/audio/_Bas Ek Sanam Chahiye Aashiqui Ke Liye_ Lyrical Video _ Aashiqui _ Kumar Sanu _ Rahul R, Anu Agarwal.mp3"
+    file: "_Bas Ek Sanam Chahiye Aashiqui Ke Liye_ Lyrical Video _ Aashiqui _ Kumar Sanu _ Rahul R, Anu Agarwal.mp3"
   }
 
 ];
