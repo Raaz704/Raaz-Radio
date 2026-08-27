@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAAZ RADIO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div class="backdrop"></div>
+  <div class="ambient-glow"></div>
+  <div class="grain"></div>
+  <div class="rain-layer" id="rainLayer"></div>
+  <div class="dark-overlay" id="darkOverlay"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="topbar">
+    <div class="clock-wrap"><div class="clock" id="clock"></div><span class="date" id="date"></span></div>
+    <div class="online"><i></i><span id="online">41</span> ONLINE</div>
+    <div class="tools">
+      <button data-action="ambience" title="Ambience">♧</button>
+      <button data-action="effects" title="Visual Effects">✦</button>
+      <button data-action="search" title="Search">⌕</button>
+      <button data-action="stats" title="Stats">▥</button>
+      <button data-action="fullscreen" title="Fullscreen">↗</button>
+      <button data-action="instagram" title="Instagram">◎</button>
+      <button data-action="menu" title="Menu">☰</button>
+    </div>
+  </header>
+
+  <div class="hero-status"><span class="pulse-dot"></span><span id="modeLabel">NIGHT DRIVE</span><b>•</b><span>LIVE</span></div>
+
+  <section class="brand">
+    <div>🎵RAAZ<br><span>MUSIC RADIO🎵</span></div>
+  </section>
+
+  <div class="visualizer" id="visualizer" aria-hidden="true">
+    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+  </div>
+
+  <button class="main-power" id="mainPower" title="Lights On / Off"><span>⏻</span></button>
+  <div class="power-ring"></div>
+
+  <section class="player">
+    <div class="album" id="album">♫</div>
+    <div class="track-meta">
+      <strong id="trackTitle">Virtual Skyline Drive</strong>
+      <small id="trackArtist">ElevenLabs</small>
+    </div>
+    <div class="seek-wrap">
+      <div class="seek-top">
+        <span id="elapsed">0:00</span>
+        <input type="range" id="seek" min="0" max="100" value="0">
+        <span id="trackDuration">0:00</span>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="prev" title="Previous">◀</button>
+      <button id="play" class="play" title="Play / Pause">▶</button>
+      <button id="next" title="Next">▶</button>
+    </div>
+    <div class="volume"><button id="muteMusicBtn" title="Mute music">🔊</button><input id="volume" type="range" min="0" max="1" step="0.01" value="0.75" title="Music volume"></div>
+  </section>
+
+  <div class="hint"><kbd>SPACE</kbd> play/pause <span>·</span> <kbd>F</kbd> fullscreen <span>·</span> <kbd>L</kbd> lights</div>
+  <div class="toast" id="toast"></div>
+
+  <section class="floating-panel ambience-panel" id="ambiencePanel">
+    <button class="close" data-close="ambiencePanel">×</button>
+    <h3>AMBIENCE STUDIO</h3><p>rain, night & cinematic soundscape</p>
+    <div class="pill-row"><button id="rainBtn">RAIN</button><button id="nightBtn">NIGHT</button><button id="muteBtn">MUTE ALL</button><button id="cinemaBtn">CINEMA OFF</button></div>
+    <div class="panel-status"><span>AMBIENCE</span><b id="ambienceStatus">OFF</b></div>
+  </section>
+
+  <section class="floating-panel stats-panel" id="statsPanel">
+    <button class="close" data-close="statsPanel">×</button><h3>SESSION</h3>
+    <div class="stat"><span>ONLINE</span><b>1</b></div><div class="stat"><span>PLAYLIST</span><b id="playlistCount">1</b></div><div class="stat"><span>LIGHTS</span><b id="lightsStatus">ON</b></div><div class="stat"><span>VISUALIZER</span><b id="visualStatus">ON</b></div>
+  </section>
+
+ <section class="floating-panel search-panel" id="searchPanel">
+  <button class="close" data-close="searchPanel">×</button>
+
+  <h3>SEARCH PLAYLIST</h3>
+
+  <input
+  id="search"
+  type="search"
+  placeholder="Search a track..."
+  autocomplete="new-password"
+  autocorrect="off"
+  autocapitalize="off"
+  spellcheck="false"
+  name="playlist-search"
+>
+
+  <div id="results"></div>
+</section>
+
+  <section class="floating-panel effects-panel" id="effectsPanel">
+    <button class="close" data-close="effectsPanel">×</button><h3>VISUAL EFFECTS</h3><p>control the atmosphere</p>
+    <div class="effect-row"><span>Visualizer</span><button class="toggle on" id="visualToggle">ON</button></div>
+    <div class="effect-row"><span>Cursor glow</span><button class="toggle on" id="glowToggle">ON</button></div>
+    <div class="effect-row"><span>Film grain</span><button class="toggle on" id="grainToggle">ON</button></div>
+  </section>
+
+  <aside class="drawer" id="drawer">
+    <div class="drawer-head"><strong>✦ MENU</strong><button id="drawerClose">×</button></div>
+    <div class="drawer-card"><div><strong>♧ AMBIENCE STUDIO</strong><small>rain & night soundscape</small></div><button id="configure">CONFIGURE</button></div>
+    <h4>♫ PLAYLIST TRACKS (<span id="playlistHeading">1</span>)</h4><div class="playlist" id="playlist"></div>
+    <div class="about"><h5 style="margin-bottom: -7px;">ⓘ ABOUT ME</h5><p>Behind RAAZ RADIO is a creative mind who loves turning ideas into experiences.</p>
+  <p>When the work gets loud, music becomes the escape — one song, one mood, one moment at a time.</p></div>
+  </aside>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
