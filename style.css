@@ -4,7 +4,7 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#080706;col
 button,input{font:inherit}
 button{cursor:pointer}
 #app{position:relative;width:100%;height:100%;overflow:hidden}
-.backdrop{position:absolute;inset:0;background:url("assets/scene-reference.png") center center/cover no-repeat;transition:filter .55s ease,transform .55s ease}
+.backdrop{position:absolute;inset:0;background:url("scene-reference.png") center center/cover no-repeat;transition:filter .55s ease,transform .55s ease}
 .dark-overlay{position:absolute;inset:0;background:rgba(0,0,0,0);transition:background .65s ease;pointer-events:none;z-index:4}
 #app.lights-off .dark-overlay{background:rgba(0,0,0,.82)}
 #app.lights-off .backdrop{filter:brightness(.3) saturate(.75)}
