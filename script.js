@@ -146,7 +146,7 @@ const tracks = [
   {
     title: "Bas Ek Sanam Chahiye Aashiqui Ke Liye",
     artist: "Kumar Sanu",
-    file: "_Bas Ek Sanam Chahiye Aashiqui Ke Liye_ Lyrical Video _ Aashiqui _ Kumar Sanu _ Rahul R, Anu Agarwal.mp3"
+    file: "_Bas Ek Sanam Chahiye Aashiqui Ke Liye_ Lyrical Video _ Aashiqui _ Kumar Sanu _ Rahul R, Anu Agarwal - Copy.mp3"
   }
 
 ];
