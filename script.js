@@ -141,14 +141,7 @@ const tracks = [
     title: "Yeh Dil Deewana",
     artist: "Sonu Nigam",
     file: "Yeh Dil Deewana _ Shah Rukh Khan _ Sonu Nigam _ Nadeem-Shravan _ Pardes.mp3"
-  },
-
-  {
-    title: "Bas Ek Sanam Chahiye Aashiqui Ke Liye",
-    artist: "Kumar Sanu",
-    file: "_Bas Ek Sanam Chahiye Aashiqui Ke Liye_ Lyrical Video _ Aashiqui _ Kumar Sanu _ Rahul R, Anu Agarwal.mp3"
   }
-
 ];
 
 const $=id=>document.getElementById(id), app=$("app");
